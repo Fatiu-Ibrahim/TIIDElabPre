@@ -4,15 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- external css link-->
+    <link rel="stylesheet" href="index.css">
+    
+    
     <title>Tiidelab Pre Class</title>
+    <style>
+        /* tag name */
+        div{
+            color: aqua;
+        }
+        p{
+            color: black;
+        }
+
+
+
+        /* id selector */
+        #red-paragraph{
+            color: red;
+            font-size: 19px;
+            background-color: black;
+        }
+
+
+        /* class selector*/
+        .blue-paragraph{
+            color: blue;
+            font-size: 23px;
+            background: burlywood;
+        }
+    </style>
 </head>
 
-<h1>Hello World</h1>
-<h2>Hello World</h2>
-<h3>Hello World</h3>
-<h4>Hello World</h4>
-<h5>Hello World</h5>
-<h6>Hello World</h6>
+<!--
+    
+    inline css
+    internal css
+    external css
+    
+    color
+    font-size
+    font-weight
+    background
+    font-family
+    font-style
+
+    px
+    em
+    rem 1rem = 16px
+-->
+
+<h1 style="color:red; background: blue;">Hello World</h1>
+<h2 style="color:pink; font-size: px;">Hello World</h2>
+<h3 style="font-weight: 900;">Hello World</h3>
+<h4 style="background-color: yellow">Hello World</h4>
+<h5 style="font-family: cursive;">Hello World</h5>
+<h6 style="font-style: italic;">Hello World</h6>
 
 <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, placeat neque? Molestiae labore cum nesciunt soluta ipsum facere nam eius eum, dolores harum repellat nobis. Architecto cumque cum neque fuga.</div>
 <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, placeat neque? Molestiae labore cum nesciunt soluta ipsum facere nam eius eum, dolores harum repellat nobis. Architecto cumque cum neque fuga.</div>
@@ -36,8 +84,8 @@
 <span>span text here</span>
 
 <hr>
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti eos cumque natus ipsa cum perferendis, molestiae necessitatibus quos corporis excepturi illum a harum ad dignissimos omnis provident facere tempora possimus?</p>
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti eos cumque natus ipsa cum perferendis, molestiae necessitatibus quos corporis excepturi illum a harum ad dignissimos omnis provident facere tempora possimus?</p>
+<p id= "red-paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti eos cumque natus ipsa cum perferendis, molestiae necessitatibus quos corporis excepturi illum a harum ad dignissimos omnis provident facere tempora possimus?</p>
+<p class="blue-paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti eos cumque natus ipsa cum perferendis, molestiae necessitatibus quos corporis excepturi illum a harum ad dignissimos omnis provident facere tempora possimus?</p>
 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti eos cumque natus ipsa cum perferendis, molestiae necessitatibus quos corporis excepturi illum a harum ad dignissimos omnis provident facere tempora possimus?</p>
 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti eos cumque natus ipsa cum perferendis, molestiae necessitatibus quos corporis excepturi illum a harum ad dignissimos omnis provident facere tempora possimus?</p>
 
@@ -76,7 +124,7 @@
     <div></div>
     <div></div>
 </main>
-<ol>
+<ol class="blue-group">
     <li>Bread</li>
     <li>Rice</li>
     <li>Tea</li>
@@ -84,7 +132,7 @@
     <li>Bread</li>
     <li>Bread</li>
 </ol>
-<ul>
+<ul class="yellow-group">
     <li>Bread</li>
     <li>Rice</li>
     <li>Tea</li>
@@ -92,12 +140,15 @@
     <li>Bread</li>
     <li>Bread</li> 
 </ul>
-<li>Bread</li>
-<li>Rice</li>
-<li>Tea</li>
-<li>Yam</li>
-<li>Bread</li>
-<li>Bread</li>
+<ol class="red-group">
+    <li>Bread</li>
+    <li>Rice</li>
+    <li>Tea</li>
+    <li>Yam</li>
+    <li>Bread</li>
+    <li>Bread</li>
+</ol>
+
 <br>
 
 <select>
