@@ -1,0 +1,45 @@
+/* RESET DEFAULT STYLES */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 100px 200px;
+}
+
+.container > div{
+    margin-bottom: 10px;
+}
+
+.text-section{
+    display: flex;
+    /*gap: 20px;*/
+    line-height: 1.5;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    flex-wrap: wrap;
+}
+
+.text-section p{
+    flex: 50%;
+    padding: 40px;
+}
+
+.image-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-section > div{
+    flex: 50%;
+    padding: 40px;
+}
+
+.image-section > div img{
+    width: 100%;
+    height: 100%;
+
+}

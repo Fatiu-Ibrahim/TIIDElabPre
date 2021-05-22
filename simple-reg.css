@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background: green;
+    padding: 10px 20px;
+}
+
+a{
+    text-decoration: none;
+    color: cornsilk;
+}
+
+ul{
+    float: right;
+    list-style: none;
+}
+
+/* MAIN CONTENT */
+.body-area{
+    padding: 20px;
+}
+.container h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+label{
+    font-size: 16px;
+}
+
+input{
+    border: 1px solid brown;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.wrapper{
+    margin-bottom: 20px;
+}
+
+.button{
+    font-size: large;
+    color: cornsilk;
+    background: green;
+    align-self: center;
+    padding: 5px;
+    font-family: monospace;
+}
+
+footer{
+    padding: 20px;
+}
